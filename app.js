@@ -8,15 +8,15 @@ let x;
 slider.addEventListener('mousedown',(e)=>{
     press = true;
     startX = e.offsetX - innerSlider.offsetLeft;
-    slider.style.cursor = 'grabbing'
+    // slider.style.cursor = 'grabbing'
 });
 
 slider.addEventListener('mouseenter', ()=>{
-    slider.style.cursor = 'grabbing'
+    // slider.style.cursor = 'grabbing'
 });
 
 slider.addEventListener('mouseup', ()=>{
-    slider.style.cursor = 'grabbing'
+    // slider.style.cursor = 'grabbing'
 
 });
 
